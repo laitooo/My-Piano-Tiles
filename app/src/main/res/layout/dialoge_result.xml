@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp"
+    android:background="@color/black">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_result"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:text="Game over"
+        android:paddingLeft="30dp"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@color/blue"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_result"
+        android:textSize="22dp"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:layout_below="@+id/title_result"
+        android:layout_centerHorizontal="true"
+        android:text="Your result :"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_layout"
+        android:text="Play again"
+        android:textColor="@color/blue"
+        android:textSize="20dp"
+        android:id="@+id/button_result"
+        android:layout_marginBottom="30dp"
+        android:layout_below="@+id/text_result"
+        android:layout_centerHorizontal="true"/>
+
+
+
+</RelativeLayout>
